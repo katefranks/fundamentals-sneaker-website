@@ -1,0 +1,19 @@
+*{
+  background-color: lavender;
+  border: solid 2px black;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav{
+  border-color: purple;
+  display: inline-block;
+}
+
+.right-nav{
+  border-color: lime;
+  display: inline-block;
+}
