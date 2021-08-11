@@ -2,6 +2,48 @@
   border: 1px solid pink;
 }
 
+.main-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-shoe-container{
+  display:flex;
+}
+
+
+.main-shoe-buy-now{
+  display: flex;
+}
+
+.main-product-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-product-header-reviews{
+  display: flex;
+}
+
+.recommended-shoe-header{
+  display: flex;
+  justify-content: center;
+}
+
+.recommended-shoes-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-right-footer{
+  display: flex;
+}
+
 /* *{
   background-color: white;
   box-sizing: border-box;
