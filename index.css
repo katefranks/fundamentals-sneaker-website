@@ -2,6 +2,11 @@
   border: 1px solid pink;
 }
 
+img{
+  max-height: 100%;
+  max-width: 100%;
+}
+
 .main-header{
   display: flex;
   justify-content: space-between;
@@ -9,6 +14,7 @@
 
 .main-shoe-container{
   display:flex;
+  background-image: linear-gradient(to right, #DF1F63, #FF4620);
 }
 
 
@@ -33,6 +39,7 @@
 .recommended-shoes-container{
   display: flex;
   justify-content: space-evenly;
+  background-image: linear-gradient(to right, #DF1F63, #FF4620);
 }
 
 .main-footer{
