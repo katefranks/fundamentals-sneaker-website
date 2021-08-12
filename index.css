@@ -1,3 +1,9 @@
+.container{
+  max-width: 1200px;
+  padding: 5%;
+  margin: auto;
+}
+
 *{
   border: 1px solid pink;
 }
@@ -5,6 +11,19 @@
 img{
   max-height: 100%;
   max-width: 100%;
+}
+
+a{
+  text-decoration: none;
+  padding: 5px;
+}
+
+#site-logo{
+  width: 40px;
+}
+
+#shopping-cart-logo{
+  width: 20px;
 }
 
 .main-header{
@@ -34,6 +53,7 @@ img{
 .recommended-shoe-header{
   display: flex;
   justify-content: center;
+  background: #FEE7EE;
 }
 
 .recommended-shoes-container{
@@ -49,7 +69,11 @@ img{
 
 #nav-right-footer{
   display: flex;
+  align-items: center;
 }
+.nav-left{
+  align-items: center;
+  display: flex;}
 
 /* *{
   background-color: white;
