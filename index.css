@@ -11,13 +11,11 @@
   margin: auto;
 }
 /*   **************     */
-*{
-  border: 1px solid pink;
-}
 
 img{
   max-height: 100%;
   max-width: 100%;
+  padding: 5px;
 }
 
 a{
@@ -70,6 +68,7 @@ a{
 .recommended-shoes-container{
   display: flex;
   justify-content: space-evenly;
+  padding: 10px;
   background-image: linear-gradient(to right, #DF1F63, #FF4620);
 }
 
@@ -85,75 +84,5 @@ a{
 }
 .nav-left{
   align-items: center;
-  display: flex;}
-
-/* *{
-  background-color: white;
-  box-sizing: border-box;
-}
-
-body{
-  margin: 0px;
-}
-
-nav{
-  display: flex;
-  justify-content: space-between;
-}
-
-#navigation{
-  height: 70px;
-  width: 100%;
-}
-
-#main-shoe{
-  width: 40%;
-}
-
-.left-nav{
-  border-color: purple;
-  display: inline-block;
-  text-transform: uppercase;
-}
-
-.right-nav{
-  border-color: lime;
-  display: inline-block;
-}
-
-.left-nav a{
-  text-decoration: none;
-}
-
-.right-nav a{
-  text-decoration: none;
-}
-
-.top-shoe-img img {
-  width: fill;
-}
-
-#main-shoe{
-  padding: 5px;
-  background-image: linear-gradient(to right, #DF1F63, #FF4620);
-}
-
-#top-shoe{
   display: flex;
 }
-
-.top-shoe-container{
-  width: 75%;
-}
-
-.top-shoe-right{
-  width: 25%
-}
-
-.top-shoe-right h1{
-
-}
-
-.top-shoe-right p {
-  border-top: dashed;
-} */
